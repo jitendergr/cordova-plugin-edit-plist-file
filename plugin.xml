@@ -37,6 +37,7 @@
                 <string>fb</string>
                 <string>whatsapp</string>
                 <string>anydesk</string>
+                <string>teamviewer</string>
                 <string>youtube</string>                
             </array>
         </config-file>

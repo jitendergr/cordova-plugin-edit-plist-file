@@ -43,6 +43,10 @@
                 <string>msauth.com.realvnc.VNCViewer</string>
                 <string>com.realvnc.vncviewer.sso</string>
                 <string>teamviewer</string>
+                <string>rdc</string>
+                <string>rdc-intunemam</string>
+                <string>rdp</string>
+                <string>rdp-intunemam</string>
                 <string>youtube</string>                
             </array>
         </config-file>

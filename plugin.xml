@@ -51,9 +51,5 @@
             </array>
         </config-file>
     </platform>
-    <platform name="android">
-         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <application android:allowBackup="false"/>
-        </config-file>
-    </platform>   
+   
 </plugin>

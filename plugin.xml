@@ -48,7 +48,8 @@
                 <string>rdp</string>
                 <string>rdp-intunemam</string>
                 <string>youtube</string>         
-                <string>com.aub.b2b.phone.kuwait</string>         
+                <string>com.aub.b2b.phone.kuwait</string>
+                <string>com.kfh.kfhonline</string>
             </array>
         </config-file>
     </platform>

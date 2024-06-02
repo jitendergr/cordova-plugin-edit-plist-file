@@ -50,6 +50,7 @@
                 <string>youtube</string>         
                 <string>com.aub.b2b.phone.kuwait</string>
                 <string>com.kfh.kfhonline</string>
+                <string>com.kuwaitfinancehouse.kfhonline</string>
             </array>
         </config-file>
     </platform>

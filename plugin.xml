@@ -33,26 +33,20 @@
         <!-- iOS9 whitelisting -->
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
-                <string>twitter</string>
+                 <string>twitter</string>
                 <string>fb</string>
                 <string>whatsapp</string>
-                <string>anydesk</string>
-                <string>crd</string>
-                <string>sandstudio-airdroid</string>
-                <string>vnc</string>
-                <string>msauth.com.realvnc.VNCViewer</string>
-                <string>com.realvnc.vncviewer.sso</string>
-                <string>teamviewer</string>
-                <string>rdc</string>
-                <string>rdc-intunemam</string>
-                <string>rdp</string>
-                <string>rdp-intunemam</string>
-                <string>youtube</string>         
-                <string>com.aub.b2b.phone.kuwait</string>
-                <string>com.kfh.kfhonline</string>
-                <string>com.kuwaitfinancehouse.kfhonline</string>
-                <string>kfhonline</string>
+                <string>itms-apps</string>
+                <string>youtube</string>
+                <string>soundcloud</string>
+                <string>fb-messenger</string>
+                <string>instagram</string>
             </array>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="dict">
+            <key>NSCameraUsageDescription</key>
+            <string>This app requires access to the camera to capture photos.</string>
         </config-file>
     </platform>
    

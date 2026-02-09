@@ -39,15 +39,13 @@
                 <string>itms-apps</string>
                 <string>youtube</string>
                 <string>soundcloud</string>
-                <string>fb-messenger</string>
                 <string>instagram</string>
             </array>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="dict">
-            <key>NSCameraUsageDescription</key>
-            <string>This app requires access to the camera to capture photos.</string>
-        </config-file>
+        <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+            <string>This app requires camera access to scan barcodes for logistics tracking.</string>
+        </edit-config>
     </platform>
    
 </plugin>

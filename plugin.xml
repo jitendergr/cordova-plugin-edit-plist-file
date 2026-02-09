@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-edit-plist-file"
-    version="0.0.3">
+    version="0.0.4">
     
     <name>Edit Plist file</name>
     
@@ -35,17 +35,12 @@
             <array>
                  <string>twitter</string>
                 <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-                <string>instagram</string>
             </array>
         </config-file>
-        <edit-config file="*-Info.plist" mode="merge" target="dict">
-            <key>NSCameraUsageDescription</key>
-            <string>This app requires camera access to scan barcodes for logistics tracking.</string>
+        <edit-config file="*-Info.plist" mode="overwrite" target="NSCameraUsageDescription">
+             <string>This app requires camera access to scan barcodes for logistics tracking.</string>
         </edit-config>
+
 
     </platform>
    
